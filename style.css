@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container-fluid {
+    background: url(fotolar/gokyuzu-1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .navbar-brand {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  .navbar-nav .nav-link {
+    color: antiquewhite;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: sans-serif;
+  }
+  
+  
+  .navbar-nav .nav-link:hover {
+    background: hsla(11, 96%, 54%, 0.568);
+    border-radius: 2px;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+  }
+  
+  .center h1, .center h2 {
+    color: rgba(24, 188, 6, 0.4);
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .center h1 {
+    font-size: 70px;
+    width: 100%;
+  }
+  
+  .center h2 {
+    font-size: 65px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .bio {
+    background: rgba(24, 188, 6, 0.4);
+    text-align: center;
+    font-size: 22.5px;
+    color: black;
+    font-family: sans-serif;
+  }
+  
